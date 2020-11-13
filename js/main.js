@@ -1,0 +1,3 @@
+$('#carrusel').carousel({
+    touch: true
+})
