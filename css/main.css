@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: rgb(229, 229, 229);
+    background-color:#E5E5E5!important;
     font-family: "Visby Round", sans-serif!important;
 }
 
@@ -168,10 +168,63 @@ ol.carousel-indicators > li{
 
 .btn-light{
     background-color: #dfdfdf!important;
-    color:   color: #612999!important;
+    color: #612999!important;
 }
 
 /* Seccion de cards*/
 h1{
   color: #612999;  
+}
+
+/* Card*/
+div.card {
+    border-radius: 10%;
+    background-color: white;
+}
+/* container que limitara la imagen*/
+div.img-container{
+    overflow: hidden;
+    border-radius: 10%;
+    height: 200px;
+}
+
+.favor {
+    top: 20px;
+    left: 170px;
+    z-index: 100;
+}
+
+.favor > span {
+    background-color: white;
+    color: #F51264;
+}
+
+div.img-container > img{
+    height: 40vh;
+    z-index: 0;
+}
+
+div.card-body > div {
+    background-color: rgb(255, 255, 255);
+}
+
+div.card-body > div > h5 {
+    font-size: 18px;
+}
+
+p.card-text {
+    color:#C8C8C8;
+    text-align: justify;
+    font-size: 12px;;
+}
+
+.card-bottom > div:first-child {
+    color: #612999;
+    font-size: 20px;
+}
+
+.card-bottom > div:last-child > button {
+    background-color: #612999;
+    color: white;
+    font-size: 15px;
 }
