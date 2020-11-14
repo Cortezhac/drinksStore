@@ -11,40 +11,41 @@
     <title>Home</title>
 </head>
 <body>
-    <div class="row">
         <div id="carrusel" class="carousel slide" data-ride="carousel">
-            <!--Barra de navegacion -->
-            <nav class="navbar fixed-top navbar-light row menu">
-                <div class="col-4 align-self-start">
-                    <a class="navbar-brand icono" href="#">
-                        <div>
-                            <span></span>
-                            <span></span>
-                        </div>
-                        <div>
-                            <span></span>
-                            <span></span>
-                        </div>
-                    </a>
-                </div>
-                
-                <div class="col-8 align-self-center">
-                    <ul class="nav">
-                        <li class="nav-item">
-                          <a class="nav-link active" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Smoothies</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">About</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Contact</a>
-                        </li>
-                      </ul>
-                </div>
-            </nav>
+            <div class="row">
+                <!--Barra de navegacion -->
+                <nav class="navbar col-12 position-absolute visibility navbar-light menu">
+                    <div class="col-4 align-self-start">
+                        <a class="navbar-brand icono" href="#">
+                            <div>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <div>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="col-8 align-self-start">
+                        <ul class="nav">
+                            <li class="nav-item">
+                            <a class="nav-link active" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="#">Smoothies</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
             <!--Elementos internos-->
             <div class="container">
                 <div class="row position-absolute visibility">
@@ -125,21 +126,23 @@
                        </div>
                     </div>
                     <!--Social -->
-                    <div class="col-1 m-0 p-0 align-self-center lateral-bar">
-                        <nav class="social-bar">
-                            <ul>
-                                <li><a href="#">f</a></li>
-                                <li><a href="#">t</a></li>
-                                <li><a href="#">i</a></li>
-                            </ul>
-                        </nav>
-                        <div class="indicadores">
-                            <ol class="carousel-indicators">
-                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                            </ol>
-                        </div>
+                    <div class="col-1 m-0 p-0 align-self-center lateral-bar ">
+                            <div class="col-12">
+                                <nav class="social-bar">
+                                    <ul>
+                                        <li><a href="#">f</a></li>
+                                        <li><a href="#">t</a></li>
+                                        <li><a href="#">i</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <div class="col-12">
+                                <ol class="carousel-indicators m-0 p-0">
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                </ol>
+                            </div>
                     </div>
                 </div>
             </div>    
@@ -156,7 +159,38 @@
             </div>
             </div>
         </div>
-    </div>
+    <main class="container-fluid">
+        <section class="row justify-content-center my-5 ">
+            <div class="col-8">
+                <ul class="nav nav-pills nav-cat">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">All</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#">Polular Drinks</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Natural Smoothie</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Juices</a>
+                    </li>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Yogurt</a>
+                    </li>
+                  </ul>
+            </div>
+            <div class="col-2 mt-2">
+                <button type="button" class="btn btn-light"><i>F</i>Filter</button>
+            </div>
+        </section>
+        <section class="row justify-content-center">
+            <div class="col-11">
+                <h1>Popular Drinks</h1>
+            </div>
+        </section>
+    </main>
 </body>
 <!--
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

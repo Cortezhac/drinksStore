@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #E5E5E5;
+    background-color: rgb(229, 229, 229);
     font-family: "Visby Round", sans-serif!important;
 }
 
@@ -14,7 +14,7 @@ body{
     text-align: justify;
 }
 
-/* Elimnar los estilos de lista*/
+/* Eliminar los estilos de lista*/
 ul {
     list-style: none;
     margin: 0;
@@ -123,6 +123,15 @@ Elementos internos
 }
 
 /* social links */
+.lateral-bar > div {
+    width: 100%;
+    display: block;
+}
+
+.lateral-bar > div:first-child {
+    margin-bottom: 100px;
+ }
+
 nav.social-bar ul > li > a {
     color: white;
 }
@@ -131,8 +140,26 @@ nav.social-bar ul > li > a {
     display: inline-block!important;
 }
 
-.carousel-indicators > li{
-    border-radius: 50%;
-    padding: 4px;
+ol.carousel-indicators > li{
+    padding: 2px;
     width: 4px!important;
+}
+
+
+/****************************************
+    Cuerpo de la paguina
+*****************************************/
+/*Menu de categorias*/
+.nav-cat > li > a{
+    color: #800080!important;
+}
+
+.nav-cat > li > a.active{
+    background-color: #800080!important;
+    color: #ffffff!important;
+}
+
+.btn-light{
+    background-color: #dfdfdf!important;
+    color: #800080!important;
 }
