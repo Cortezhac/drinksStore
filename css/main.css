@@ -71,6 +71,13 @@ Elementos internos
     margin-bottom: 200px;
 }
 
+buttom.search {
+    background-color: #612999;
+    color: #ffffff;
+    height: 50px;
+    text-align: center;
+}
+
 .tag:nth-child(1){
     background-color: rgba(0, 128, 0, 0.4);
 }
@@ -151,15 +158,20 @@ ol.carousel-indicators > li{
 *****************************************/
 /*Menu de categorias*/
 .nav-cat > li > a{
-    color: #800080!important;
+    color: #612999!important;
 }
 
 .nav-cat > li > a.active{
-    background-color: #800080!important;
+    background-color:#612999!important;
     color: #ffffff!important;
 }
 
 .btn-light{
     background-color: #dfdfdf!important;
-    color: #800080!important;
+    color:   color: #612999!important;
+}
+
+/* Seccion de cards*/
+h1{
+  color: #612999;  
 }
