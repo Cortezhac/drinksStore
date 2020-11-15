@@ -5,6 +5,7 @@
 }
 
 body{
+    overflow-x: hidden;
     background-color:#ebebeb!important;
     font-family: "Visby Round", sans-serif!important;
 }
@@ -157,11 +158,15 @@ ol.carousel-indicators > li{
     My Orden List
 *****************************************/
 .order-show{
-    position: absolute;
+    overflow: hidden;
+    position: fixed;
     z-index: 200;
     width: 100%;
 }
 
+.order {
+    display: none;
+}
 .order-show > div {
     float: right;
     width: 30%;
@@ -230,7 +235,7 @@ ol.carousel-indicators > li{
 }
 
 .item-icon {
-    color: #F51264;
+    color: #F51264!important;
     font-size: 30px;
 }
 
@@ -238,6 +243,19 @@ ol.carousel-indicators > li{
     background-color: #612999;
     color: white;
 }
+
+.caja > button:hover {
+    background-color: #4d2179;
+}
+
+.caja > div > div:nth-child(1) , div:nth-child(3){
+    color: #b3b3b3;
+}
+
+.caja > div > div:nth-child(2) , div:nth-child(4){
+    color: #612999;
+}
+
 /****************************************
     Cuerpo de la paguina
 *****************************************/
