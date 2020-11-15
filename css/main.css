@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color:#E5E5E5!important;
+    background-color:#ebebeb!important;
     font-family: "Visby Round", sans-serif!important;
 }
 
@@ -136,7 +136,7 @@ buttom.search {
 }
 
 .lateral-bar > div:first-child {
-    margin-bottom: 100px;
+    margin-bottom: 300px;
  }
 
 nav.social-bar ul > li > a {
@@ -150,9 +150,94 @@ nav.social-bar ul > li > a {
 ol.carousel-indicators > li{
     padding: 2px;
     width: 4px!important;
+    margin-left: 40px;
 }
 
+/****************************************
+    My Orden List
+*****************************************/
+.order-show{
+    position: absolute;
+    z-index: 200;
+    width: 100%;
+}
 
+.order-show > div {
+    float: right;
+    width: 30%;
+    height: 100vh;
+    background-color: white;
+}
+
+.items {
+    overflow-y: scroll;
+    height: 350px;
+}
+
+.image-control > img {
+    width: 100%;
+}
+
+.icono {
+    color: #612999;
+    font-size: 20px;
+}
+
+.title-order {
+    color: #612999;
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.order-item {
+    overflow: hidden;
+    height: 100px;
+    z-index: 201;
+}
+
+.order-item > .img{
+    border-radius: 10%;
+}
+
+.item-body {
+    color: #612999;
+}
+
+.item-body > .item-title {
+    text-overflow: clip;
+    font-size: 18px;
+}
+
+.item-body > .item-val {
+    color: #b3b3b3;
+}
+
+.item-body > .item-cont > button {
+    font-size: 20px;
+    line-height: 20px;
+    padding: 0px 5px;
+}
+
+.item-body > .item-cont > button:first-child {
+    background-color: #b3b3b3;
+    color: #612999;
+}
+
+.item-body > .item-cont > button:last-child {
+    background-color: #612999;
+    color: white;
+}
+
+.item-icon {
+    color: #F51264;
+    font-size: 30px;
+}
+
+.caja > button {
+    background-color: #612999;
+    color: white;
+}
 /****************************************
     Cuerpo de la paguina
 *****************************************/
